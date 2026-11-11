@@ -23,7 +23,7 @@ Everything runs on-device. There is no network backend, no account, no analytics
 
 ## Requirements
 
-- iOS 26 or 27 (tested on iOS 26.x and 27.x, arm64).
+- iOS 26 or 27 (arm64). Built, installed and exercised on iOS 27.x. The iOS 26 code path — it selects a different container-query domain flag — is included, but it has not been tested on a 26.x device.
 - Your own Apple Developer signing identity.
 - An App Group you own.
 
