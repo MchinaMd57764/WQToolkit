@@ -41,15 +41,14 @@ The app needs the App Group because the primitive stages a symlink inside its ow
 ## Repository layout
 
 ```
-worse_query/           Swift + Objective-C sources
-worse_query.xcodeproj  Xcode project
-WQInfo.plist           Info.plist merged at build time
-dist/
-  WQToolkit-unsigned.ipa     unsigned build (no profile, no signature)
-  WQToolkit_source.tar.gz    snapshot of the sources
+worse_query/               Swift + Objective-C sources
+worse_query.xcodeproj      Xcode project
+WQInfo.plist               Info.plist merged at build time
+WQToolkit-unsigned.ipa     unsigned build (no profile, no signature)
+WQToolkit_source.tar.gz    snapshot of the sources
 ```
 
-`dist/WQToolkit-unsigned.ipa` contains no signing material. Re-sign it with your own identity and an App Group entitlement before installing — every sideloading tool does this step.
+`WQToolkit-unsigned.ipa` contains no signing material. Re-sign it with your own identity and an App Group entitlement before installing — every sideloading tool does this step.
 
 ## Notes
 
