@@ -166,20 +166,10 @@ private struct GlassBar<Content: View>: View {
     @ViewBuilder var content: Content
 
     var body: some View {
-        if #available(iOS 26.0, *) {
-            GlassEffectContainer(spacing: 6) {
-                content
-                    .glassEffect(.regular.tint(Theme.bg.opacity(0.55)).interactive(), in: Capsule())
-                    .shadow(color: Theme.barShadow, radius: 22, y: 10)
-            }
-        } else {
+        GlassEffectContainer(spacing: 6) {
             content
-                .background(
-                    Capsule()
-                        .fill(.ultraThinMaterial)
-                        .overlay(Capsule().strokeBorder(Theme.stroke, lineWidth: 1))
-                        .shadow(color: Theme.barShadow, radius: 22, y: 10)
-                )
+                .glassEffect(.regular.tint(Theme.bg.opacity(0.55)).interactive(), in: Capsule())
+                .shadow(color: Theme.barShadow, radius: 22, y: 10)
         }
     }
 }

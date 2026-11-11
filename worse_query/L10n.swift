@@ -176,7 +176,7 @@ final class L10n: ObservableObject {
         "mg_esim_failed": "Write failed: %@",
         "mg_esim_unsupported": "This cache layout could not be resolved, so the switch is disabled.",
         "mg_safe_note": "Only whitelisted CacheExtra keys are written. CacheData is never modified in this build.",
-        "mg_untested_27": "Key values come from public iOS 26 tooling. Always keep a backup.",
+        "mg_untested_27": "Key values come from public research tooling. Always keep a backup.",
         "mg_bootloop_warning": "Changing model, region or AI keys can put the device into a boot loop. Test on a spare device first.",
 
         "mg.internal_install.title": "Internal install mode",
@@ -589,7 +589,7 @@ final class L10n: ObservableObject {
         "mg_esim_failed": "写入失败：%@",
         "mg_esim_unsupported": "识别不了这台设备的缓存布局，开关已禁用。",
         "mg_safe_note": "只写白名单内的 CacheExtra 键，本版本绝不改 CacheData。",
-        "mg_untested_27": "键值来自公开 iOS 26 工具，务必先备份。",
+        "mg_untested_27": "键值来自公开研究工具，务必先备份。",
         "mg_bootloop_warning": "改机型、地区或 AI 键有白苹果风险，建议先用备用机测试。",
 
         "mg.internal_install.title": "Apple 内部安装模式",
