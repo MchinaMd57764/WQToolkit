@@ -6,6 +6,7 @@ Bilingual UI (Chinese / English), light and dark themes, iPhone and iPad layouts
 
 ## Download
 
+- **[Latest release](https://github.com/MchinaMd57764/WQToolkit/releases/latest)** — IPA and source attached.
 - **[WQToolkit-unsigned.ipa](https://github.com/MchinaMd57764/WQToolkit/raw/main/WQToolkit-unsigned.ipa)** — 4.6 MB, unsigned build.
 - **[WQToolkit_source.tar.gz](https://github.com/MchinaMd57764/WQToolkit/raw/main/WQToolkit_source.tar.gz)** — source snapshot.
 
