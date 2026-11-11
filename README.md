@@ -4,6 +4,13 @@ An iOS toolkit built on an App Group container-query primitive. It gives you a r
 
 Bilingual UI (Chinese / English), light and dark themes, iPhone and iPad layouts.
 
+## Download
+
+- **[WQToolkit-unsigned.ipa](https://github.com/MchinaMd57764/WQToolkit/raw/main/WQToolkit-unsigned.ipa)** — 4.6 MB, unsigned build.
+- **[WQToolkit_source.tar.gz](https://github.com/MchinaMd57764/WQToolkit/raw/main/WQToolkit_source.tar.gz)** — source snapshot.
+
+The IPA contains no signing material. Re-sign it with your own developer identity and an App Group entitlement before installing; every sideloading tool does this step. If you only want to read the code, browse `worse_query/` instead.
+
 ## Features
 
 - **File browser** — browse, copy, move, rename, delete, archive and share files inside the app's own data container and its App Group containers.
