@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcarchive
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa.tmp
+
+# Signing material
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+*.entitlements.plist
